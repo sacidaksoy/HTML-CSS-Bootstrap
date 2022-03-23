@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+* {
+    padding: 10px;
+}
+h1 {
+    color: red;
+    text-align: center;
+    
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: green;
+    background-color: lightgray;
+    border-radius: 25px;
+    
+}
+
+.question {
+    opacity: 0.5;
+    background-image: url(https://www.w3schools.com/css/mountain.jpg);
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    background-image: url("background.png");
+    
+}
+
+#sign {
+    text-align: right;
+    font-family: 'Estonia', cursive;
+    font-size: 30px;
+}

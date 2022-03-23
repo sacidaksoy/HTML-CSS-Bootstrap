@@ -1,0 +1,39 @@
+body {
+    color: white;
+    background-image: url("https://www.ndrn.org/wp-content/uploads/2020/11/iStock-1183548931-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+#survey-form {
+    background-color: rgba(31, 30, 30, 0.5);
+    padding: 5%;
+    margin: 0 10% 0 10%;
+}
+
+#survey-form label {
+    
+    display: block;
+    padding-top: 5%;
+}
+
+header {
+    text-align: center;
+    padding: 5%;
+    margin: 0 10% 0 10%;
+}
+
+#submit {
+    background-color: rgb(55, 130, 55);
+    padding: 2%;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+}
+.top input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#comment {
+    width: 100%;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>ABC Teknoloji İşe Alım Sözleşmesi</title>
+</head>
+
+<body bgcolor="#f1f3f8">
+  <div style="
+        width: 800px;
+        background-color: lavender;
+        position: relative;
+        margin: auto;
+        padding: 20px;
+      ">
+    <!-- Fomunuzu buradan itibaren ekleyin -->
+    <style>
+      fieldset {
+        background-color: #eeeeee;
+        display: block;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-top: 0.35em;
+        padding-bottom: 0.625em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        border: 2px groove (internal value);
+      }
+
+      legend {
+        background-color: gray;
+        color: white;
+        padding: 5px 10px;
+      }
+
+      input {
+        margin: 5px;
+      }
+
+      div.programlama {
+        display: inline-block;
+        margin-left: 172px;
+      }
+    </style>
+    <h1>ABC Teknoloji İşe Alım Sözleşmesi</h1>
+    <form action="/action_page.php">
+      <fieldset>
+        <legend>Sözleşme Onay:</legend>
+        <label for="">
+          <input type="checkbox">
+          Aşağıdaki bilgilerin doğruluğunu kabul ediyor ve sözleşmeyi onaylıyorum.
+        </label>
+        <br>
+        <input type="button" value="Formu Kaydet">
+        <input type="button" value="Formu Temizle">
+      </fieldset>
+      <fieldset>
+        <legend>Kişisel Bilgiler:</legend>
+        <label for="">Ad
+          <input type="text" style="margin-left: 72px;">
+        </label><br>
+        <label for="">Soyad
+          <input type="text" style="margin-left: 52px;">
+        </label><br>
+        <label for="">Yaş
+          <input type="text" style="margin-left: 70px; width: 80px;">
+        </label><br>
+        <label for="">Cinsiyet
+          <input type="radio" id="male" name="gender" style="margin-left: 44px;">Erkek
+          <input type="radio" id="female" name="gender">Bayan
+        </label><br>
+        <label for="">Mail Adres
+          <input type="email" style="margin-left: 20px;">
+        </label><br>
+        <label for="">Fotoğraf Ekle
+          <input type="file">
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Diğer Bilgiler:</legend>
+        <span><strong> Buradaki alanlar mesleki deneyimi kapsar </strong></span><br>
+        <label for="">Sektöre Giriş Tarihi
+          <input type="date" style="margin-left: 180px;">
+        </label><br>
+        <label for="">Sektör Deneyimi
+          <input type="range" style="margin-left: 200px;">
+        </label><br>
+        <label for="">Programlama Dilleri
+          <div class="programlama">
+            <input type="checkbox" name="" id="">C#
+            <input type="checkbox" name="" id="">PHP
+            <input type="checkbox" name="" id="">HTML
+            <input type="checkbox" name="" id="">CSS
+            <input type="checkbox" name="" id="">Python
+            <input type="checkbox" name="" id="">Java
+          </div>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Sözleşme Koşulları:</legend>
+        <textarea name="" id="" cols="90" rows="10">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit sapiente iure velit eos voluptatem quam praesentium at, consectetur veniam. Corporis quos ipsum quibusdam, vel minus porro quae non aliquid qui.
+          Commodi amet nobis reiciendis assumenda aut deleniti doloribus quos tempora sapiente deserunt! Eos, obcaecati, aperiam eius voluptatem dolores nobis numquam sint consequuntur aliquid quisquam fuga commodi fugit quis, assumenda totam.
+          Cupiditate commodi dolorem accusamus quibusdam. Aut dolore ab magni illo neque harum, iste accusantium hic molestias excepturi dignissimos incidunt consequuntur blanditiis possimus quas fuga nemo libero amet culpa eligendi recusandae.
+          Aspernatur, incidunt! Et dolore voluptatibus consectetur ab ea! Molestiae mollitia labore blanditiis! Explicabo aperiam cumque ducimus eligendi aliquam tenetur, debitis, provident, neque id eaque adipisci qui ea est quas soluta?
+          Repellendus sit laudantium fugiat, excepturi, voluptate consectetur animi amet quisquam sint inventore earum deserunt impedit nobis recusandae adipisci reiciendis officia illo eum. Alias voluptate perspiciatis laborum nulla repellat quas neque?
+        </textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Mail Listesi:</legend>
+        <label for="">Mail listesine katılmak istiyorum
+          <input type="radio" style="margin-left: 25px;" name="listed">
+        </label><br>
+        <label for="">Mail listesine katılmak istemiyorum
+          <input type="radio" name="listed">
+        </label>
+      </fieldset>
+    </form>
+
+  </div>
+</body>
+
+</html>
